@@ -52,7 +52,6 @@ public class StreamsMapExample {
         System.out.println("namesUpperCase List : " + namesUpperCase(StudentDataBase.getAllStudents()));
         System.out.println("namesUpperCase Set : " + namesSetUpperCase(StudentDataBase.getAllStudents()));
         System.out.println("namesLengthMap : " + namesLengthMap(names));
-        System.out.println();
 
     }
 
