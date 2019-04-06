@@ -16,7 +16,6 @@ public class CollectionsvsStreams {
         names.add("Adam");
         names.add("Jim");
         names.add("Jenny");
-
         Stream<String> namesStream = names.stream();
 
         namesStream.forEach(System.out::println);
