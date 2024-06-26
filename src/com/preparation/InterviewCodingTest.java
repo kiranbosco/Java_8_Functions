@@ -118,6 +118,18 @@ public class InterviewCodingTest {
     public static int sumOf2_num(List<Integer> sumNumb) {
         return sumNumb.stream().reduce(1, (a, b) -> a * b);
     }
+    public static Integer fibonicSerice(){
+        // each number is sum with provies number
+        return IntStream.rangeClosed(1,5)
+                .map(Integer::new)
+                .sum();
+    }
+    // find the odd number
+    public static void fidnOddNumberfidnOddNumber(){
+
+
+         }
+
 
     //find ovel in this method]
     public static boolean checkVovel_in_string(String str) {
@@ -127,17 +139,17 @@ public class InterviewCodingTest {
     // find the prime number in java
     public static boolean givenNumber_is_primeOrNot(Integer num) {
 // if prime number is divisible by 1 and itself
-
         for(int i=2; i<num; i++){
             if(num%1==0){
                 return false ; // if given number became O this is not a prime number
             }
         }
         return true;
-
     }
 
+
     public static void main(String[] args) {
+        List<Integer> integerList =Arrays.asList(1,2,3,4);
         //   List<Integer> sumNumb =Arrays.asList(1,2,3,4);
         //    devideOddAndEvennum();
         //    avoidDuplicateValues();
@@ -153,6 +165,9 @@ public class InterviewCodingTest {
         //  unsortedTwovaluse_Merge_without_duplicates
         //     System.out.println(sumOf2_num(sumNumb));
         //    System.out.println(checkVovel_in_string("mano"));
-        System.out.println(givenNumber_is_primeOrNot(3));
+        //      System.out.println(givenNumber_is_primeOrNot(3));
+        //    System.out.println(fibonicSerice());
+        fidnOddNumberfidnOddNumber();
+
     }
 }

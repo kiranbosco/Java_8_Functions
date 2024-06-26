@@ -4,9 +4,95 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad39660f-8acd-4c3b-bb11-278d9ebb6aff" name="Changes" comment="Java coding questions">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ad39660f-8acd-4c3b-bb11-278d9ebb6aff" name="Changes" comment="Prime number logic added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/LocalDateTimeUsingOfMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/LocalDateTimeUsingOfMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/com/PredicateExample2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/com/PredicateExample2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/com/PredicateExemle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/com/PredicateExemle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/com/consumer/BiConsumerExe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/com/consumer/BiConsumerExe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/com/consumer/ConsumerExemple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/com/consumer/ConsumerExemple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/com/consumer/FuctionStudentExemple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/com/consumer/FuctionStudentExemple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/com/consumer/PredicateConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/com/consumer/PredicateConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/com/consumer/SupplierExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/com/consumer/SupplierExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/FilterExe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/FilterExe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/FindAny.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/FindAny.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/GroupingBy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/GroupingBy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/InterviewCls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/InterviewCls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/InterviewCodingTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/MapExe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/MapExe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/PartitioningExe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/PartitioningExe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/ReduceExe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/ReduceExe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/TestThreadPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/TestThreadPool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/WorkerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/WorkerThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/data/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/data/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/data/StudentDataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/data/StudentDataBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/BiConsumerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/BiConsumerExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/BiFunctionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/BiFunctionExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/BiPredicateExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/BiPredicateExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/BinaryOperatorExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/BinaryOperatorExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/ConsumerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/ConsumerExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/FunctionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/FunctionExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/FunctionExample1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/FunctionExample1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/FunctionStudentExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/FunctionStudentExample$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/FunctionStudentExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/FunctionStudentExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/Optional/Bick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/Optional/Bick.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/Optional/OptionalClassExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/Optional/OptionalClassExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/Optional/OptionalEmptyNullPointerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/Optional/OptionalEmptyNullPointerExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/Optional/OptionalFilterMapFlatMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/Optional/OptionalFilterMapFlatMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/Optional/OptionalOrElseOrElseGetExe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/Optional/OptionalOrElseOrElseGetExe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/PredicateAndConsumerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/PredicateAndConsumerExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/PredicateExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/PredicateExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/PredicateStudentExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/PredicateStudentExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/PrimitiveConsumerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/PrimitiveConsumerExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/PrimitivePredicateExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/PrimitivePredicateExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/SupplierExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/SupplierExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/UnaryOperatorExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/functionalInterfaces/UnaryOperatorExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/imperativevsdeclarative/ImperativeVsDeclarativeExample1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/imperativevsdeclarative/ImperativeVsDeclarativeExample1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/imperativevsdeclarative/ImperativeVsDeclarativeExample2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/imperativevsdeclarative/ImperativeVsDeclarativeExample2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/lambda/ComparatorLambda$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/lambda/ComparatorLambda$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/lambda/ComparatorLambda.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/lambda/ComparatorLambda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/lambda/LambdaExceptionHandlingExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/lambda/LambdaExceptionHandlingExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/lambda/LambdaVariable1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/lambda/LambdaVariable1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/lambda/LambdaVariable2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/lambda/LambdaVariable2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/lambda/RunnableLambdaExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/lambda/RunnableLambdaExample$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/lambda/RunnableLambdaExample$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/lambda/RunnableLambdaExample$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/lambda/RunnableLambdaExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/lambda/RunnableLambdaExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/methodreferences/ConsumerMethodReferenceExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/methodreferences/ConsumerMethodReferenceExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/methodreferences/FunctionMethodReferenceExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/methodreferences/FunctionMethodReferenceExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/methodreferences/RefactorMethodReferenceExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/methodreferences/RefactorMethodReferenceExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/numericstreams/NumericStreamAggregateExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/numericstreams/NumericStreamAggregateExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/numericstreams/NumericStreamAsExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/numericstreams/NumericStreamAsExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/numericstreams/NumericStreamBoxingUnboxingExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/numericstreams/NumericStreamBoxingUnboxingExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/numericstreams/NumericStreamMapExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/numericstreams/NumericStreamMapExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/numericstreams/NumericStreamRangesExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/numericstreams/NumericStreamRangesExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/numericstreams/NumericStreamsExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/numericstreams/NumericStreamsExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/CollectionsvsStreams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/CollectionsvsStreams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/ParllelStreamExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/ParllelStreamExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamFlatMapExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamFlatMapExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamPartitioningByExe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamPartitioningByExe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamReduceExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamReduceExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamsComparatorExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamsComparatorExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamsExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamsExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamsFilterExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamsFilterExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamsFilterMapReduceExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamsFilterMapReduceExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamsFindAnyFirstExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamsFindAnyFirstExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamsGroupByMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamsGroupByMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamsLimitSkipExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamsLimitSkipExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamsMapExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamsMapExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamsMatchExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamsMatchExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamsMaxMinExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamsMaxMinExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamsOfGenerateIterateExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamsOfGenerateIterateExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/streams_terminal/StreamsCountingExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/streams_terminal/StreamsCountingExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/streams_terminal/StreamsGroupingByExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/streams_terminal/StreamsGroupingByExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/streams_terminal/StreamsJoiningExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/streams_terminal/StreamsJoiningExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/streams_terminal/StreamsMappingExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/streams_terminal/StreamsMappingExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/streams_terminal/StreamsMinByMaxByExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/streams_terminal/StreamsMinByMaxByExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/streams_terminal/StreamsPartitioningExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/streams_terminal/StreamsPartitioningExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/streams_terminal/StreamsSumAvgExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/streams_terminal/StreamsSumAvgExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/util/Date/DateFormateExemple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/util/Date/DateFormateExemple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/util/Date/LocalDateTimeExe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/util/Date/LocalDateTimeExe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/wrapper/StringToInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/wrapper/StringToInteger.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/preparation/InterviewCodingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/preparation/InterviewCodingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,12 +116,12 @@
     &quot;assignee&quot;: &quot;kiranbosco&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/kiranbosco/Java_8_Functions.git&quot;,
-    &quot;accountId&quot;: &quot;fb2f182c-838b-4491-afcf-1cf4e60f698e&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/kiranbosco/Java_8_Functions.git",
+    "accountId": "ce7307f3-f617-413a-a388-5745193ad115"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -52,6 +138,7 @@
     "Application.FilterExe.executor": "Run",
     "Application.FindAny.executor": "Run",
     "Application.GroupingBy.executor": "Run",
+    "Application.ImperativeVsDeclarativeExample1.executor": "Run",
     "Application.InterviewCodingTest.executor": "Run",
     "Application.MapExe.executor": "Run",
     "Application.PartitioningExe.executor": "Run",
@@ -86,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterviewCodingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interview.preparation.InterviewCodingTest" />
+    <configuration name="ImperativeVsDeclarativeExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="imperativevsdeclarative.ImperativeVsDeclarativeExample1" />
       <module name="Java_8_Functions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.interview.preparation.*" />
+          <option name="PATTERN" value="imperativevsdeclarative.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,8 +186,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitioningExe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interview.preparation.PartitioningExe" />
+    <configuration name="InterviewCodingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interview.preparation.InterviewCodingTest" />
       <module name="Java_8_Functions" />
       <extension name="coverage">
         <pattern>
@@ -141,10 +228,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.com.preparation.InterviewCodingTest" />
+        <item itemvalue="Application.ImperativeVsDeclarativeExample1" />
         <item itemvalue="Application.FilterExe" />
         <item itemvalue="Application.InterviewCodingTest" />
         <item itemvalue="Application.TestThreadPool" />
-        <item itemvalue="Application.PartitioningExe" />
       </list>
     </recent_temporary>
   </component>
@@ -173,12 +260,29 @@
       <option name="project" value="LOCAL" />
       <updated>1719399014673</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Prime number logic added">
+      <option name="closed" value="true" />
+      <created>1719405227330</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719405227330</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Prime number logic added">
+      <option name="closed" value="true" />
+      <created>1719405314249</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719405314249</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java coding questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java coding questions" />
+    <MESSAGE value="Prime number logic added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prime number logic added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
