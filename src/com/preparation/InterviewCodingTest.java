@@ -9,12 +9,16 @@ import static java.util.stream.Collectors.partitioningBy;
 public class InterviewCodingTest {
 
     // hwo to dived add num and even num from the list
-
     public static void devideOddAndEvennum() {
         List<Integer> integerList = Arrays.asList(1, 2, 3, 4, 5, 6, 7);
         Map<Boolean, List<Integer>> integerListMap = integerList.stream()
                 .collect(partitioningBy(i -> i % 2 == 0));
         System.out.println(integerListMap);
+
+//       Map<Boolean,List<Integer>> mapInt = integerList.stream()
+//                .collect(Collectors.partitioningBy(i -> i%2==0 ));
+//
+//        System.out.println(mapInt);
     }
 
     public static void avoidDuplicateValues() {
@@ -56,6 +60,18 @@ public class InterviewCodingTest {
 
         System.out.println("MaxNumber values " + maxNumber + "MinNumber valus" + minNumber);
 
+    }
+
+    public static void find_second_LargestNumber() {
+        // Creating a list of integers
+        List<Integer> numbers = Arrays.asList(1, 3, 4, 5, 6, 6, 7, 2);
+        Optional<Integer> integerOptional =  numbers.stream()
+                .distinct() // take unique values first
+                .sorted(Comparator.reverseOrder())
+                .skip(1)// skip highest values
+                .findFirst();
+
+        integerOptional.ifPresent(x-> System.out.println( "Second Larger Number : {} " + x));
     }
     // how do you merge two arrays in singe array
 
@@ -118,17 +134,19 @@ public class InterviewCodingTest {
     public static int sumOf2_num(List<Integer> sumNumb) {
         return sumNumb.stream().reduce(1, (a, b) -> a * b);
     }
-    public static Integer fibonicSerice(){
+
+    public static Integer fibonicSerice() {
         // each number is sum with provies number
-        return IntStream.rangeClosed(1,5)
+        return IntStream.rangeClosed(1, 5)
                 .map(Integer::new)
                 .sum();
     }
+
     // find the odd number
-    public static void fidnOddNumberfidnOddNumber(){
+    public static void fidnOddNumberfidnOddNumber() {
 
 
-         }
+    }
 
 
     //find ovel in this method]
@@ -139,9 +157,9 @@ public class InterviewCodingTest {
     // find the prime number in java
     public static boolean givenNumber_is_primeOrNot(Integer num) {
 // if prime number is divisible by 1 and itself
-        for(int i=2; i<num; i++){
-            if(num%1==0){
-                return false ; // if given number became O this is not a prime number
+        for (int i = 2; i < num; i++) {
+            if (num % 1 == 0) {
+                return false; // if given number became O this is not a prime number
             }
         }
         return true;
@@ -149,7 +167,7 @@ public class InterviewCodingTest {
 
 
     public static void main(String[] args) {
-        List<Integer> integerList =Arrays.asList(1,2,3,4);
+        List<Integer> integerList = Arrays.asList(1, 2, 3, 4);
         //   List<Integer> sumNumb =Arrays.asList(1,2,3,4);
         //    devideOddAndEvennum();
         //    avoidDuplicateValues();
@@ -167,7 +185,9 @@ public class InterviewCodingTest {
         //    System.out.println(checkVovel_in_string("mano"));
         //      System.out.println(givenNumber_is_primeOrNot(3));
         //    System.out.println(fibonicSerice());
-        fidnOddNumberfidnOddNumber();
-
+        //   fidnOddNumberfidnOddNumber();
+        //   devideOddAndEvennum();
+        // fidnOddNumberfidnOddNumber();
+        find_second_LargestNumber();
     }
 }
