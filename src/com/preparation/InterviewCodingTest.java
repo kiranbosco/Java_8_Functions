@@ -34,7 +34,6 @@ public class InterviewCodingTest {
         List<Integer> integerList = Arrays.asList(1, 1, 2, 2, 3, 4);
         integerList.stream()
                 .filter(n -> !integerList.add(n)).collect(Collectors.toSet());
-
     }
 
     public static void sortingInList() {
@@ -155,12 +154,11 @@ public class InterviewCodingTest {
     // find the odd number
     public static void fidnOddNumberfidnOddNumber() {
         List<Integer> integerList = Arrays.asList(1, 2, 3, 4, 5, 6, 7);
-       Map<Boolean,List<Integer>> booleanListMap = integerList.stream()
+        Map<Boolean,List<Integer>> booleanListMap = integerList.stream()
                 .collect(partitioningBy(i->i%2==0));
         System.out.println(booleanListMap);
 
     }
-
 
     //find ovel in this method]
     public static boolean checkVovel_in_string(String str) {
@@ -177,9 +175,22 @@ public class InterviewCodingTest {
         }
         return true;
     }
-
-
+    public static List<Integer>  checkStringValue(){
+        List<Integer> list = Arrays.asList(1,2,2,3);
+        List<Integer> duplicate = new ArrayList<>();
+        Set<Integer> set = new HashSet<>();
+        for(Integer i : list){
+            if(set.contains(i)){
+                duplicate.add(i);
+            }
+            else {
+                set.add(i);
+            }
+        }
+        return duplicate;
+    }
     public static void main(String[] args) {
+        List<Integer> list = Arrays.asList(1, 2, 3, 4,4);
         List<Integer> integerList = Arrays.asList(1, 2, 3, 4);
         //   List<Integer> sumNumb =Arrays.asList(1,2,3,4);
         //    devideOddAndEvennum();
@@ -197,11 +208,13 @@ public class InterviewCodingTest {
         //     System.out.println(sumOf2_num(sumNumb));
         //    System.out.println(checkVovel_in_string("mano"));
         //      System.out.println(givenNumber_is_primeOrNot(3));
-          //  System.out.println(fibonicSerice());
+        //  System.out.println(fibonicSerice());
         //   fidnOddNumberfidnOddNumber();
         //   devideOddAndEvennum();
         // fidnOddNumberfidnOddNumber();
         // find_second_LargestNumber();
         // findcommonelementsbetween_two_arrays();
+
+        System.out.println(listDuplicateUsingSet(list));
     }
 }
