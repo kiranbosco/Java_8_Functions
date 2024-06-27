@@ -30,6 +30,13 @@ public class InterviewCodingTest {
 
     }
 
+    public static void findAllDuplicateValues() {
+        List<Integer> integerList = Arrays.asList(1, 1, 2, 2, 3, 4);
+        integerList.stream()
+                .filter(n -> !integerList.add(n)).collect(Collectors.toSet());
+
+    }
+
     public static void sortingInList() {
         List<String> stringList = Arrays.asList("Kiran", "Manoja", "Aarushi");
         List<String> stringList1 = stringList.stream()
@@ -64,20 +71,20 @@ public class InterviewCodingTest {
 
     public static void find_second_LargestNumber() {
         // Creating a list of integers
-     //   1. Create a list of integers
-     //   2. Remove duplicates to ensure uniqueness of numbers
-     //   3. Sort the stream in descending order
-     //   4. Skip the largest number
-      //  5. Find the second-largest number
-     //   6. Display the second-largest number
+        //   1. Create a list of integers
+        //   2. Remove duplicates to ensure uniqueness of numbers
+        //   3. Sort the stream in descending order
+        //   4. Skip the largest number
+        //  5. Find the second-largest number
+        //   6. Display the second-largest number
         List<Integer> numbers = Arrays.asList(1, 3, 4, 5, 6, 6, 7, 2);
-        Optional<Integer> integerOptional =  numbers.stream()
+        Optional<Integer> integerOptional = numbers.stream()
                 .distinct() // take unique values first
                 .sorted(Comparator.reverseOrder())
                 .skip(1)// skip highest values
                 .findFirst();
 
-        integerOptional.ifPresent(x-> System.out.println( "Second Larger Number : {} " + x));
+        integerOptional.ifPresent(x -> System.out.println("Second Larger Number : {} " + x));
     }
     // how do you merge two arrays in singe array
 
@@ -89,7 +96,6 @@ public class InterviewCodingTest {
     }
 
     public static void unsortedTwovaluse_Merge_without_duplicates() {
-
         int[] a = {4, 2, 5, 1};
         int[] b = {8, 1, 9, 5};
         int[] c = IntStream.concat(Arrays.stream(a), Arrays.stream(b)).sorted().distinct().toArray();
@@ -98,7 +104,6 @@ public class InterviewCodingTest {
     }
 
     //How do you find common elements between two arrays?
-
     public static void findcommonelementsbetween_two_arrays() {
         List<String> stringList = Arrays.asList("kiran", "purini");
         List<String> stringList1 = Arrays.asList("kiran", "Manoja");
@@ -108,7 +113,6 @@ public class InterviewCodingTest {
                 .collect(Collectors.toList());
 
         System.out.println(list);
-
     }
 
     public static void reverseString() {
@@ -150,7 +154,10 @@ public class InterviewCodingTest {
 
     // find the odd number
     public static void fidnOddNumberfidnOddNumber() {
-
+        List<Integer> integerList = Arrays.asList(1, 2, 3, 4, 5, 6, 7);
+       Map<Boolean,List<Integer>> booleanListMap = integerList.stream()
+                .collect(partitioningBy(i->i%2==0));
+        System.out.println(booleanListMap);
 
     }
 
@@ -190,10 +197,11 @@ public class InterviewCodingTest {
         //     System.out.println(sumOf2_num(sumNumb));
         //    System.out.println(checkVovel_in_string("mano"));
         //      System.out.println(givenNumber_is_primeOrNot(3));
-        //    System.out.println(fibonicSerice());
+          //  System.out.println(fibonicSerice());
         //   fidnOddNumberfidnOddNumber();
         //   devideOddAndEvennum();
         // fidnOddNumberfidnOddNumber();
-        find_second_LargestNumber();
+        // find_second_LargestNumber();
+        // findcommonelementsbetween_two_arrays();
     }
 }
