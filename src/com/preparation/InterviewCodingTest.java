@@ -64,6 +64,12 @@ public class InterviewCodingTest {
 
     public static void find_second_LargestNumber() {
         // Creating a list of integers
+     //   1. Create a list of integers
+     //   2. Remove duplicates to ensure uniqueness of numbers
+     //   3. Sort the stream in descending order
+     //   4. Skip the largest number
+      //  5. Find the second-largest number
+     //   6. Display the second-largest number
         List<Integer> numbers = Arrays.asList(1, 3, 4, 5, 6, 6, 7, 2);
         Optional<Integer> integerOptional =  numbers.stream()
                 .distinct() // take unique values first
