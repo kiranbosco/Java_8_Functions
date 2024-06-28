@@ -1,29 +1,46 @@
 package com.preparation;
 
-
 import java.util.*;
-import java.util.stream.IntStream;
+
+import static java.lang.System.*;
 
 public class InterviewCls {
+    public static List<Integer> findDuplicateValues() {
 
-    public static List<Integer>  checkStringValue(){
-        List<Integer> list = Arrays.asList(1,2,2,3);
-        List<Integer> duplicate = new ArrayList<>();
+        List<Integer> list = Arrays.asList(1,2,3,2);
         Set<Integer> set = new HashSet<>();
+        List<Integer> duplicates = new ArrayList<>();
+
         for(Integer i : list){
             if(set.contains(i)){
-                duplicate.add(i);
+                duplicates.add(i);
             }
             else {
                 set.add(i);
             }
         }
-        return duplicate;
+        return duplicates;
     }
 
-    public static void main(String[] args) {
-        System.out.println(checkStringValue());
 
+    public static void main(String[] args) {
+        System.out.println(findDuplicateValues());
+
+
+
+        //Palendram program
+        String x = "Madam";
+        int i =0;
+        int j=x.length()-1;
+        while (i<j){
+            if(x.charAt(i)!=x.charAt(j)){
+                out.println("Sorry Not pallendram");
+              //  System.exit(0);
+            }
+            i++;
+            j--;
+        }
+        out.println("it's pallendram ..!{} ");
     }
 
 }

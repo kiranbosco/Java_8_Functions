@@ -4,6 +4,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+import static java.lang.System.out;
 import static java.util.stream.Collectors.partitioningBy;
 
 public class InterviewCodingTest {
@@ -189,6 +190,9 @@ public class InterviewCodingTest {
         }
         return duplicate;
     }
+
+
+
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1, 2, 3, 4,4);
         List<Integer> integerList = Arrays.asList(1, 2, 3, 4);
@@ -215,6 +219,6 @@ public class InterviewCodingTest {
         // find_second_LargestNumber();
         // findcommonelementsbetween_two_arrays();
 
-        System.out.println(listDuplicateUsingSet(list));
+        //    System.out.println(checkStringValue());
     }
 }
