@@ -3,8 +3,6 @@ package com.preparation;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-
-import static java.lang.System.out;
 import static java.util.stream.Collectors.partitioningBy;
 
 public class InterviewCodingTest {
@@ -176,7 +174,7 @@ public class InterviewCodingTest {
         }
         return true;
     }
-    public static List<Integer>  checkStringValue(){
+    public static List<Integer>  checkStringDuplicateValue(){
         List<Integer> list = Arrays.asList(1,2,2,3);
         List<Integer> duplicate = new ArrayList<>();
         Set<Integer> set = new HashSet<>();
