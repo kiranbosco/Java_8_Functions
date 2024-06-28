@@ -29,7 +29,7 @@ public class InterviewCls {
 
 
         //Palendram program
-        String x = "Madam";
+        String x = "kiran";
         int i =0;
         int j=x.length()-1;
         while (i<j){
