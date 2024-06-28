@@ -1,46 +1,36 @@
 package com.preparation;
 
-import java.util.*;
 
-import static java.lang.System.*;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Map;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 public class InterviewCls {
-    public static List<Integer> findDuplicateValues() {
 
-        List<Integer> list = Arrays.asList(1,2,3,2);
-        Set<Integer> set = new HashSet<>();
-        List<Integer> duplicates = new ArrayList<>();
+    public static void stringInfor(String str) {
 
-        for(Integer i : list){
-            if(set.contains(i)){
-                duplicates.add(i);
-            }
-            else {
-                set.add(i);
-            }
-        }
-        return duplicates;
+
     }
-
-
     public static void main(String[] args) {
-        System.out.println(findDuplicateValues());
+
+        String str = "My namse is kiran";
+
+        List<String> strs = Arrays.asList(str);
+
+        String name =      Arrays.stream(str.split(" ")).reduce(" ",(s1,s2)->s2+" "+ s1);
+
+        System.out.println(name);
+
+        Map<String, Long> collect = Arrays.stream(str.split("")).collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+
+        System.out.println(collect);
 
 
 
-        //Palendram program
-        String x = "kiran";
-        int i =0;
-        int j=x.length()-1;
-        while (i<j){
-            if(x.charAt(i)!=x.charAt(j)){
-                out.println("Sorry Not pallendram");
-              //  System.exit(0);
-            }
-            i++;
-            j--;
-        }
-        out.println("it's pallendram ..!{} ");
+
     }
 
 }

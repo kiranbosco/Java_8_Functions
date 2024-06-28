@@ -216,7 +216,8 @@ public class InterviewCodingTest {
         // fidnOddNumberfidnOddNumber();
         // find_second_LargestNumber();
         // findcommonelementsbetween_two_arrays();
-
+        reverseString();
+       // System.out.println(givenNumber_is_primeOrNot(2));
         //    System.out.println(checkStringValue());
     }
 }
