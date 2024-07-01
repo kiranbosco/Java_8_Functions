@@ -3,7 +3,10 @@ package com.preparation;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
 import static java.util.stream.Collectors.partitioningBy;
+import static java.util.stream.Collectors.toList;
 
 public class InterviewCodingTest {
 
@@ -24,7 +27,7 @@ public class InterviewCodingTest {
 
         List<Integer> integerList = Arrays.asList(1, 1, 2, 2, 3, 4);
         List<Integer> integersInfo = integerList.stream()
-                .distinct().collect(Collectors.toList());
+                .distinct().collect(toList());
         System.out.println(integersInfo);
 
     }
@@ -39,7 +42,7 @@ public class InterviewCodingTest {
         List<String> stringList = Arrays.asList("Kiran", "Manoja", "Aarushi");
         List<String> stringList1 = stringList.stream()
                 .sorted()
-                .collect(Collectors.toList());
+                .collect(toList());
         System.out.println(stringList1);
     }
 
@@ -47,7 +50,7 @@ public class InterviewCodingTest {
         List<String> stringList = Arrays.asList("Az", "By", "Cx");
         List<String> reverse = stringList.stream()
                 .sorted(Comparator.reverseOrder())
-                .collect(Collectors.toList());
+                .collect(toList());
         System.out.println(reverse);
     }
 
@@ -108,7 +111,7 @@ public class InterviewCodingTest {
 
         List<String> list = stringList.stream()
                 .filter(stringList1::contains)
-                .collect(Collectors.toList());
+                .collect(toList());
 
         System.out.println(list);
     }
@@ -189,6 +192,13 @@ public class InterviewCodingTest {
         return duplicate;
     }
 
+    public static void findOvelsInJAVA_8(){
+        // Finding words starts with vowel
+        List<String> words = Stream.of("apple", "mango", "orange")
+                .filter(s -> s.matches("^[aeiou].*"))
+                .collect(toList());
+
+    }
 
 
     public static void main(String[] args) {
@@ -216,8 +226,10 @@ public class InterviewCodingTest {
         // fidnOddNumberfidnOddNumber();
         // find_second_LargestNumber();
         // findcommonelementsbetween_two_arrays();
-        reverseString();
+      //  reverseString();
        // System.out.println(givenNumber_is_primeOrNot(2));
         //    System.out.println(checkStringValue());
+
+        System.out.println();
     }
 }
