@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad39660f-8acd-4c3b-bb11-278d9ebb6aff" name="Changes" comment="Comments">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/preparation/InterviewCodingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/preparation/InterviewCodingTest.java" afterDir="false" />
     </list>
@@ -52,10 +53,14 @@
     "Application.FindAny.executor": "Run",
     "Application.GroupingBy.executor": "Run",
     "Application.ImperativeVsDeclarativeExample1.executor": "Run",
+    "Application.InterviewCls.executor": "Run",
     "Application.InterviewCodingTest.executor": "Run",
     "Application.MapExe.executor": "Run",
     "Application.PartitioningExe.executor": "Run",
     "Application.ReduceExe.executor": "Run",
+    "Application.SampleTest.executor": "Run",
+    "Application.SimpleTest.executor": "Run",
+    "Application.SingletoneDesign.executor": "Run",
     "Application.com.preparation.InterviewCodingTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -72,9 +77,9 @@
       <recent name="D:\Spring-Boot-App\Java_8_Functions\src\com" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.preparation.InterviewCodingTest">
-    <configuration name="FilterExe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.preparation.FilterExe" />
+  <component name="RunManager" selected="Application.SingletoneDesign">
+    <configuration name="InterviewCls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.preparation.InterviewCls" />
       <module name="Java_8_Functions" />
       <extension name="coverage">
         <pattern>
@@ -86,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImperativeVsDeclarativeExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="imperativevsdeclarative.ImperativeVsDeclarativeExample1" />
+    <configuration name="SampleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.preparation.SampleTest" />
       <module name="Java_8_Functions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="imperativevsdeclarative.*" />
+          <option name="PATTERN" value="com.preparation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterviewCodingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interview.preparation.InterviewCodingTest" />
+    <configuration name="SimpleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.preparation.SimpleTest" />
       <module name="Java_8_Functions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.interview.preparation.*" />
+          <option name="PATTERN" value="com.preparation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interview.preparation.TestThreadPool" />
+    <configuration name="SingletoneDesign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.preparation.SingletoneDesign" />
       <module name="Java_8_Functions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.interview.preparation.*" />
+          <option name="PATTERN" value="com.preparation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletoneDesign" />
         <item itemvalue="Application.com.preparation.InterviewCodingTest" />
-        <item itemvalue="Application.ImperativeVsDeclarativeExample1" />
-        <item itemvalue="Application.FilterExe" />
-        <item itemvalue="Application.InterviewCodingTest" />
-        <item itemvalue="Application.TestThreadPool" />
+        <item itemvalue="Application.SimpleTest" />
+        <item itemvalue="Application.SampleTest" />
+        <item itemvalue="Application.InterviewCls" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +218,71 @@
       <option name="project" value="LOCAL" />
       <updated>1719467098256</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Comments">
+      <option name="closed" value="true" />
+      <created>1719469407115</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719469407115</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Comments">
+      <option name="closed" value="true" />
+      <created>1719488137998</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719488137998</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Comments">
+      <option name="closed" value="true" />
+      <created>1719553518844</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719553518845</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Comments">
+      <option name="closed" value="true" />
+      <created>1719556252392</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1719556252392</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Comments">
+      <option name="closed" value="true" />
+      <created>1719556621274</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1719556621274</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Comments">
+      <option name="closed" value="true" />
+      <created>1719574456079</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1719574456079</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Comments">
+      <option name="closed" value="true" />
+      <created>1719837658321</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1719837658321</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Comments">
+      <option name="closed" value="true" />
+      <created>1719837673206</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719837673206</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -231,6 +300,11 @@
           <url>file://$PROJECT_DIR$/src/com/interview/preparation/InterviewCodingTest.java</url>
           <line>128</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/preparation/InterviewCls.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

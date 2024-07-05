@@ -199,7 +199,12 @@ public class InterviewCodingTest {
                 .collect(toList());
 
     }
+    public static List<String> checkStringDuplicateValue_8(){
+        List<String> list =  Arrays.asList("kiran","kumar","kiran","purini");
+        HashSet<String> set = new HashSet<>();
 
+       return list.stream().filter(x->!set.add(x)).collect(toList());
+    }
 
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1, 2, 3, 4,4);
@@ -226,10 +231,11 @@ public class InterviewCodingTest {
         // fidnOddNumberfidnOddNumber();
         // find_second_LargestNumber();
         // findcommonelementsbetween_two_arrays();
-      //  reverseString();
-       // System.out.println(givenNumber_is_primeOrNot(2));
+        //  reverseString();
+        // System.out.println(givenNumber_is_primeOrNot(2));
         //    System.out.println(checkStringValue());
 
-        System.out.println();
+        //System.out.println();
+        System.out.println(checkStringDuplicateValue_8());
     }
 }
