@@ -17,4 +17,7 @@ public class SingleToneDesingPattern {
         }
         return instance;
     }
+
+    public static void main(String[] args) {
+    }
 }

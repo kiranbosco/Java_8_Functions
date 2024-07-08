@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad39660f-8acd-4c3b-bb11-278d9ebb6aff" name="Changes" comment="Comments">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/InterviewCodingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/InterviewCodingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/SingleToneDesingPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/SingleToneDesingPattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/SingletoneDesign.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/SingletoneDesign.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/preparation/InterviewCls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/preparation/InterviewCls.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/preparation/InterviewCodingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/preparation/InterviewCodingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/preparation/SingleToneDesingPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/preparation/SingleToneDesingPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/preparation/SingletoneDesign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/preparation/SingletoneDesign.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +35,12 @@
     &quot;assignee&quot;: &quot;kiranbosco&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/kiranbosco/Java_8_Functions.git&quot;,
-    &quot;accountId&quot;: &quot;ce7307f3-f617-413a-a388-5745193ad115&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/kiranbosco/Java_8_Functions.git",
+    "accountId": "7bc69567-04a7-454f-8a25-faf256f6cdae"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -77,7 +82,7 @@
       <recent name="D:\Spring-Boot-App\Java_8_Functions\src\com" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SingletoneDesign">
+  <component name="RunManager" selected="Application.com.preparation.InterviewCodingTest">
     <configuration name="InterviewCls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.preparation.InterviewCls" />
       <module name="Java_8_Functions" />
@@ -145,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SingletoneDesign" />
         <item itemvalue="Application.com.preparation.InterviewCodingTest" />
+        <item itemvalue="Application.InterviewCls" />
+        <item itemvalue="Application.SingletoneDesign" />
         <item itemvalue="Application.SimpleTest" />
         <item itemvalue="Application.SampleTest" />
-        <item itemvalue="Application.InterviewCls" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +287,39 @@
       <option name="project" value="LOCAL" />
       <updated>1719837673206</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Comments">
+      <option name="closed" value="true" />
+      <created>1720180384269</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1720180384269</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Comments">
+      <option name="closed" value="true" />
+      <created>1720180524081</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1720180524081</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Comments">
+      <option name="closed" value="true" />
+      <created>1720180528531</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1720180528531</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Comments">
+      <option name="closed" value="true" />
+      <created>1720180535698</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1720180535698</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -303,7 +340,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/preparation/InterviewCls.java</url>
-          <line>35</line>
+          <line>46</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>

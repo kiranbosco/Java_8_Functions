@@ -206,6 +206,17 @@ public class InterviewCodingTest {
        return list.stream().filter(x->!set.add(x)).collect(toList());
     }
 
+    public static void isPalendram(String str){
+
+       Boolean isPalendram = IntStream.range(0,str.length()/2).allMatch(i->str.charAt(i)==str.charAt(str.length()-1-i));
+  if(isPalendram){
+      System.out.println("Yes its pallendram");
+  }
+  else {
+      System.out.println("NO Its not pallendram");
+  }
+    }
+
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1, 2, 3, 4,4);
         List<Integer> integerList = Arrays.asList(1, 2, 3, 4);
@@ -237,5 +248,6 @@ public class InterviewCodingTest {
 
         //System.out.println();
         System.out.println(checkStringDuplicateValue_8());
+        isPalendram("madam");
     }
 }
