@@ -1,5 +1,7 @@
 package com.preparation;
 
+import java.time.LocalDate;
+import java.time.Period;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -14,7 +16,7 @@ public class InterviewCodingTest {
     public static void devideOddAndEvennum() {
         List<Integer> integerList = Arrays.asList(1, 2, 3, 4, 5, 6, 7);
         Map<Boolean, List<Integer>> integerListMap = integerList.stream()
-                .collect(partitioningBy(i -> i % 2 == 0));
+                .collect(partitioningBy(i -> i % 2 == 0 ));
         System.out.println(integerListMap);
 
 //       Map<Boolean,List<Integer>> mapInt = integerList.stream()
@@ -112,7 +114,6 @@ public class InterviewCodingTest {
         List<String> list = stringList.stream()
                 .filter(stringList1::contains)
                 .collect(toList());
-
         System.out.println(list);
     }
 
@@ -217,6 +218,13 @@ public class InterviewCodingTest {
   }
     }
 
+    public static void calculatePersonAge(){
+        LocalDate personAge = LocalDate.of(1988,05,10);
+        LocalDate localDate = LocalDate.now();
+        int age = Period.between(personAge,localDate).getYears();
+        System.out.println("Person age {} " + age);
+    }
+
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1, 2, 3, 4,4);
         List<Integer> integerList = Arrays.asList(1, 2, 3, 4);
@@ -249,5 +257,6 @@ public class InterviewCodingTest {
         //System.out.println();
         System.out.println(checkStringDuplicateValue_8());
         isPalendram("madam");
+        calculatePersonAge();
     }
 }
