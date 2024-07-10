@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad39660f-8acd-4c3b-bb11-278d9ebb6aff" name="Changes" comment="Comments">
+    <list default="true" id="ad39660f-8acd-4c3b-bb11-278d9ebb6aff" name="Changes" comment="Merge branch 'master' of https://github.com/kiranbosco/Java_8_Functions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/preparation/Sample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/InterviewCodingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/InterviewCodingTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/preparation/InterviewCodingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/preparation/InterviewCodingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +47,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CoverentReturnTypeInfor.executor": "Run",
     "Application.FilterExe.executor": "Run",
     "Application.FindAny.executor": "Run",
     "Application.GroupingBy.executor": "Run",
+    "Application.HashMapExe.executor": "Run",
     "Application.ImperativeVsDeclarativeExample1.executor": "Run",
     "Application.InterviewCls.executor": "Run",
     "Application.InterviewCodingTest.executor": "Run",
@@ -79,7 +78,33 @@
       <recent name="D:\Spring-Boot-App\Java_8_Functions\src\com" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.preparation.InterviewCodingTest">
+  <component name="RunManager" selected="Application.HashMapExe">
+    <configuration name="CoverentReturnTypeInfor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.preparation.CoverentReturnTypeInfor" />
+      <module name="Java_8_Functions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.preparation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashMapExe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.preparation.HashMapExe" />
+      <module name="Java_8_Functions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.preparation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InterviewCls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.preparation.InterviewCls" />
       <module name="Java_8_Functions" />
@@ -106,32 +131,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.preparation.SimpleTest" />
-      <module name="Java_8_Functions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.preparation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingletoneDesign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.preparation.SingletoneDesign" />
-      <module name="Java_8_Functions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.preparation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="com.preparation.InterviewCodingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.preparation.InterviewCodingTest" />
       <module name="Java_8_Functions" />
@@ -147,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashMapExe" />
+        <item itemvalue="Application.CoverentReturnTypeInfor" />
         <item itemvalue="Application.com.preparation.InterviewCodingTest" />
         <item itemvalue="Application.Sample" />
         <item itemvalue="Application.InterviewCls" />
-        <item itemvalue="Application.SingletoneDesign" />
-        <item itemvalue="Application.SimpleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -332,7 +331,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720506198186</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Merge branch 'master' of https://github.com/kiranbosco/Java_8_Functions">
+      <option name="closed" value="true" />
+      <created>1720508314146</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1720508314146</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -341,7 +348,8 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="code update" />
     <MESSAGE value="Comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comments" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/kiranbosco/Java_8_Functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/kiranbosco/Java_8_Functions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
