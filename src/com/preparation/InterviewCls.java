@@ -41,6 +41,19 @@ public class InterviewCls {
         System.out.println( clsList.stream().filter(x->!set.add(x)).collect(Collectors.toSet()));
 
         checkispallendram("madam");
+
+
+        List<Integer> clsListinfo = Arrays.asList(1,1,2,3,4,4,4);
+        Optional<Integer> optionalI= clsListinfo.stream().max(Integer::compareTo);
+        if(optionalI.isPresent()){
+            System.out.println(optionalI.get()+ " Max number");
+        }
+        else{
+            System.out.println("the list is empty");
+        }
+
     }
+
+
 
 }

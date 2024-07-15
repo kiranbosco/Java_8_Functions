@@ -65,10 +65,18 @@ public class InterviewCodingTest {
 
     public static void fid_Max_Min_Numbers() {
         List<Integer> maxMin = Arrays.asList(1, 44, 55, 66, 66);
-        Optional<Integer> maxNumber = maxMin.stream().max(Comparator.naturalOrder());
-        Optional<Integer> minNumber = maxMin.stream().min(Comparator.naturalOrder());
+//        Optional<Integer> maxNumber = maxMin.stream().max(Comparator.naturalOrder());
+//        Optional<Integer> minNumber = maxMin.stream().min(Comparator.naturalOrder());
+//
+//        System.out.println("MaxNumber values " + maxNumber + "MinNumber valus" + minNumber);
 
-        System.out.println("MaxNumber values " + maxNumber + "MinNumber valus" + minNumber);
+Optional<Integer> optionalI = maxMin.stream().max(Integer::compareTo);
+if(optionalI.isPresent()){
+    System.out.println(optionalI.get() + " Max value") ;
+}
+else {
+    System.out.println("Empty list");
+}
 
     }
 
@@ -225,6 +233,13 @@ public class InterviewCodingTest {
         System.out.println("Person age {} " + age);
     }
 
+    public static void repeat_charactor_Printrepeat_charactor_Print(){
+    String str = "kiran kumar";
+        String string = Arrays.stream(str.split("")).filter(x -> str.indexOf(str) != x.lastIndexOf(str)).findFirst().orElse("Not repeated");
+        System.out.println(string);
+
+    }
+
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1, 2, 3, 4,4);
         List<Integer> integerList = Arrays.asList(1, 2, 3, 4);
@@ -258,5 +273,8 @@ public class InterviewCodingTest {
         System.out.println(checkStringDuplicateValue_8());
         isPalendram("madam");
         calculatePersonAge();
+
+     //   fid_Max_Min_Numbers();
+        repeat_charactor_Printrepeat_charactor_Print();
     }
 }
