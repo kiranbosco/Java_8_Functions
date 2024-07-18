@@ -32,7 +32,9 @@ public class InterviewCls {
 
         System.out.println(name);
 
-        Map<String, Long> collect = Arrays.stream(str.split("")).collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+        Map<String, Long> collect = Arrays
+                .stream(str.split(""))
+                .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 
         //System.out.println(collect);
 

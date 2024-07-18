@@ -3,12 +3,12 @@ package com.preparation;
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.*;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import static java.util.stream.Collectors.partitioningBy;
-import static java.util.stream.Collectors.toList;
+import static java.util.stream.Collectors.*;
 
 public class InterviewCodingTest {
 
@@ -70,13 +70,13 @@ public class InterviewCodingTest {
 //
 //        System.out.println("MaxNumber values " + maxNumber + "MinNumber valus" + minNumber);
 
-Optional<Integer> optionalI = maxMin.stream().max(Integer::compareTo);
-if(optionalI.isPresent()){
-    System.out.println(optionalI.get() + " Max value") ;
-}
-else {
-    System.out.println("Empty list");
-}
+        Optional<Integer> optionalI = maxMin.stream().max(Integer::compareTo);
+        if(optionalI.isPresent()){
+            System.out.println(optionalI.get() + " Max value") ;
+        }
+        else {
+            System.out.println("Empty list");
+        }
 
     }
 
@@ -212,18 +212,20 @@ else {
         List<String> list =  Arrays.asList("kiran","kumar","kiran","purini");
         HashSet<String> set = new HashSet<>();
 
-       return list.stream().filter(x->!set.add(x)).collect(toList());
+        return list.stream().filter(x->!set.add(x)).collect(toList());
     }
 
     public static void isPalendram(String str){
 
-       Boolean isPalendram = IntStream.range(0,str.length()/2).allMatch(i->str.charAt(i)==str.charAt(str.length()-1-i));
-  if(isPalendram){
-      System.out.println("Yes its pallendram");
-  }
-  else {
-      System.out.println("NO Its not pallendram");
-  }
+        Boolean isPalendram = IntStream
+                .range(0,str.length()/2)
+                .allMatch(i->str.charAt(i)==str.charAt(str.length()-1-i));
+        if(isPalendram){
+            System.out.println("Yes its pallendram");
+        }
+        else {
+            System.out.println("NO Its not pallendram");
+        }
     }
 
     public static void calculatePersonAge(){
@@ -234,11 +236,32 @@ else {
     }
 
     public static void repeat_charactor_Printrepeat_charactor_Print(){
-    String str = "kiran kumar";
+        String str = "kiran kumar";
         String string = Arrays.stream(str.split("")).filter(x -> str.indexOf(str) != x.lastIndexOf(str)).findFirst().orElse("Not repeated");
         System.out.println(string);
 
     }
+    // convert to numaric stream to object
+    public static void convertMapTOobj(){
+        int num [] = {1,2,3,4,5};
+        IntStream.of(num).mapToObj(n-> " " + n).forEach(System.out::println);
+    }
+
+    public static void count_each_Word() {
+        String str = ("kiran kumar purini");
+        System.out.println(Arrays.stream(Arrays.stream(str.split("")).reduce("",(s1, s2)->s2 + " " + s1).split("")).collect(Collectors.groupingBy(Function.identity(),counting())));
+    }
+
+    public static void swappingArrya_zeeros_should_comeEnd(){
+        int i [] =    { 9,7,4,0,8,6,0,19};
+        int j [] =  {9,7,4,8,6,19,0,0};
+
+       int temp [] = IntStream.concat(Arrays.stream(i),Arrays.stream(j).sorted()).toArray();
+        System.out.println(Arrays.stream(Arrays.toString(temp).split(""))
+                .reduce("",(s1,s2)->s2 + " " + s1));
+    }
+
+
 
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1, 2, 3, 4,4);
@@ -274,7 +297,9 @@ else {
         isPalendram("madam");
         calculatePersonAge();
 
-     //   fid_Max_Min_Numbers();
-        repeat_charactor_Printrepeat_charactor_Print();
+        //   fid_Max_Min_Numbers();
+    //    repeat_charactor_Printrepeat_charactor_Print();
+     //   checkStringDuplicateValue_8();
+        count_each_Word();
     }
 }

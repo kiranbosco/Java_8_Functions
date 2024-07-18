@@ -2,16 +2,21 @@ package streams;
 
 import data.Student;
 import data.StudentDataBase;
-import streams_terminal.StreamsMinByMaxByExample;
 
-import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class StreamsGroupByMethod {
 
+    public static void countGroupingMehtod(){
+        Map<String, Long> collect = StudentDataBase.getAllStudents().stream()
+                .map(Student::getName)
+                .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+        System.out.println(collect);
+
+    }
 
     public static void groupByMethod() {
         Map<String, List<Student>> list = StudentDataBase.getAllStudents()
@@ -22,22 +27,22 @@ public class StreamsGroupByMethod {
 
     public  static  void customizedMethod(){
 
-      Map<String ,List<Student>> list =  StudentDataBase.getAllStudents()
-              .stream().collect(Collectors.groupingBy(stu->stu.getGpa()>3.8 ? "OutStanding" : "Average"));
+        Map<String ,List<Student>> list =  StudentDataBase.getAllStudents()
+                .stream().collect(Collectors.groupingBy(stu->stu.getGpa()>3.8 ? "OutStanding" : "Average"));
         System.out.println(list);
-            }
+    }
 // tow level grouping method is possible in stream
 
     public static void towLevelgrouping_1(){
-       Map<Integer,Map<String, List<Student>>> list = StudentDataBase.getAllStudents().stream().collect(Collectors.groupingBy(Student::getGradeLevel
-        , Collectors.groupingBy(stu->stu.getGpa()>=3.9 ? "OutStanding" : "Average")));
+        Map<Integer,Map<String, List<Student>>> list = StudentDataBase.getAllStudents().stream().collect(Collectors.groupingBy(Student::getGradeLevel
+                , Collectors.groupingBy(stu->stu.getGpa()>=3.9 ? "OutStanding" : "Average")));
         System.out.println(list);
     }
 
     public static void towLevelgrouping_2() {
-       Map<List<String> , Map<String ,List<Student>>>   list = StudentDataBase.getAllStudents().stream()
-               .collect(Collectors.groupingBy(Student::getActivities,
-                Collectors.groupingBy(Student::getGender)));
+        Map<List<String> , Map<String ,List<Student>>>   list = StudentDataBase.getAllStudents().stream()
+                .collect(Collectors.groupingBy(Student::getActivities,
+                        Collectors.groupingBy(Student::getGender)));
         System.out.println(list);
     }
    /* public static void towLevelgrouping_3() {
@@ -69,14 +74,15 @@ public class StreamsGroupByMethod {
                 .collect(Collectors.groupingBy(Student::getGradeLevel, minBy(Comparator.comparing(Student::getGpa))));
         System.out.println(list);
     }*/
-        public static void main(String[] args) {
-     //   groupByMethod();
-       // customizedMethod();
-       towLevelgrouping_1();
-       //     towLevelgrouping_2();
+    public static void main(String[] args) {
+        //   groupByMethod();
+        // customizedMethod();
+     //   towLevelgrouping_1();
+        //     towLevelgrouping_2();
         //    towLevelgrouping_4();
         //    groupingByMaxMethod();
-           //groupingByMinByMethod();
+        //groupingByMinByMethod();
+        countGroupingMehtod();
 
     }
 

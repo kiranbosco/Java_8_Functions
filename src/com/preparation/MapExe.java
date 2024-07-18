@@ -3,9 +3,10 @@ package com.preparation;
 import data.Student;
 import data.StudentDataBase;
 
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
+
+import static java.util.stream.Collectors.toSet;
 
 public class MapExe {
 
@@ -35,18 +36,29 @@ public class MapExe {
 
         studentIfo.stream()
                 .map(Student::getGender)
-               // .sorted(Comparator.comparing(Student::getGpa))
+                // .sorted(Comparator.comparing(Student::getGpa))
                 .collect(Collectors.toList());
         return studentIfo;
+
+    }
+
+    public static List printDuplicateNames(){
+        List<Student> list = StudentDataBase.getAllStudents();
+        Set<String> studentSet = new HashSet<>();
+       return Collections.singletonList(list.stream()
+                       .map(Student::getName)
+                      // .map(String::toUpperCase)
+                       .filter(i->!studentSet.add(i)).collect(toSet()));
+             //  .<String>map(Student::getName)
+            //   .filter(i -> Collections.frequency(list, i) > 1).collect(Collectors.toList()));
 
     }
 
 
     public static void main(String[] args) {
         //   System.out.println(createMapStudent());
-        System.out.println(sortingStudent());
-        System.out.println(studentSorting());
-
-
+     //   System.out.println(sortingStudent());
+    //    System.out.println(studentSorting());
+        System.out.println(printDuplicateNames());;
     }
 }
