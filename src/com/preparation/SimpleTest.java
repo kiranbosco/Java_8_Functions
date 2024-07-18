@@ -1,22 +1,20 @@
 package com.preparation;
 
-import data.Student;
-import data.StudentDataBase;
-
 import java.time.LocalDate;
 import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import static jdk.nashorn.internal.objects.NativeArray.forEach;
-
 public class SimpleTest {
 
     //reverse string in java8
     public static void reverseString() {
         List<String> stringList = Arrays.asList("kiran", "kumar", "purini");
-        List<String> reverse = stringList.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
+        List<String> reverse = stringList
+                .stream()
+                .sorted(Comparator.reverseOrder())
+                .collect(Collectors.toList());
         System.out.println(reverse);
     }
 

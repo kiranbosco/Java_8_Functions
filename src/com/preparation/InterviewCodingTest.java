@@ -70,13 +70,13 @@ public class InterviewCodingTest {
 //
 //        System.out.println("MaxNumber values " + maxNumber + "MinNumber valus" + minNumber);
 
-Optional<Integer> optionalI = maxMin.stream().max(Integer::compareTo);
-if(optionalI.isPresent()){
-    System.out.println(optionalI.get() + " Max value") ;
-}
-else {
-    System.out.println("Empty list");
-}
+        Optional<Integer> optionalI = maxMin.stream().max(Integer::compareTo);
+        if(optionalI.isPresent()){
+            System.out.println(optionalI.get() + " Max value") ;
+        }
+        else {
+            System.out.println("Empty list");
+        }
 
     }
 
@@ -212,18 +212,18 @@ else {
         List<String> list =  Arrays.asList("kiran","kumar","kiran","purini");
         HashSet<String> set = new HashSet<>();
 
-       return list.stream().filter(x->!set.add(x)).collect(toList());
+        return list.stream().filter(x->!set.add(x)).collect(toList());
     }
 
     public static void isPalendram(String str){
 
-       Boolean isPalendram = IntStream.range(0,str.length()/2).allMatch(i->str.charAt(i)==str.charAt(str.length()-1-i));
-  if(isPalendram){
-      System.out.println("Yes its pallendram");
-  }
-  else {
-      System.out.println("NO Its not pallendram");
-  }
+        Boolean isPalendram = IntStream.range(0,str.length()/2).allMatch(i->str.charAt(i)==str.charAt(str.length()-1-i));
+        if(isPalendram){
+            System.out.println("Yes its pallendram");
+        }
+        else {
+            System.out.println("NO Its not pallendram");
+        }
     }
 
     public static void calculatePersonAge(){
@@ -234,10 +234,15 @@ else {
     }
 
     public static void repeat_charactor_Printrepeat_charactor_Print(){
-    String str = "kiran kumar";
+        String str = "kiran kumar";
         String string = Arrays.stream(str.split("")).filter(x -> str.indexOf(str) != x.lastIndexOf(str)).findFirst().orElse("Not repeated");
         System.out.println(string);
 
+    }
+    // convert to numaric stream to object
+    public static void convertMapTOobj(){
+        int num [] = {1,2,3,4,5};
+        IntStream.of(num).mapToObj(n-> " " + n).forEach(System.out::println);
     }
 
     public static void main(String[] args) {
@@ -274,7 +279,8 @@ else {
         isPalendram("madam");
         calculatePersonAge();
 
-     //   fid_Max_Min_Numbers();
+        //   fid_Max_Min_Numbers();
         repeat_charactor_Printrepeat_charactor_Print();
+        checkStringDuplicateValue_8();
     }
 }

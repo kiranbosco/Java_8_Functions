@@ -6,12 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ad39660f-8acd-4c3b-bb11-278d9ebb6aff" name="Changes" comment="Merge branch 'master' of https://github.com/kiranbosco/Java_8_Functions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/FilterExe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/FilterExe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/InterviewCls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/InterviewCls.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/InterviewCodingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/InterviewCodingTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/preparation/FilterExe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/preparation/FilterExe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/preparation/InterviewCls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/preparation/InterviewCls.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/preparation/InterviewCodingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/preparation/InterviewCodingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/preparation/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/preparation/Sample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/preparation/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/preparation/SimpleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/StudentDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/StudentDataBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +52,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CoverentReturnTypeInfor.executor": "Run",
+    "Application.FetchDuplicateUsers.executor": "Run",
     "Application.FilterExe.executor": "Run",
     "Application.FindAny.executor": "Run",
     "Application.GroupingBy.executor": "Run",
@@ -62,6 +61,7 @@
     "Application.Information.executor": "Run",
     "Application.InterviewCls.executor": "Run",
     "Application.InterviewCodingTest.executor": "Run",
+    "Application.InterviewQuestions.executor": "Run",
     "Application.LocalDateTimeUsingOfMethod.executor": "Run",
     "Application.MapExe.executor": "Run",
     "Application.PartitioningExe.executor": "Run",
@@ -70,6 +70,8 @@
     "Application.SampleTest.executor": "Run",
     "Application.SimpleTest.executor": "Run",
     "Application.SingletoneDesign.executor": "Run",
+    "Application.StreamsExample.executor": "Run",
+    "Application.StreamsFilterExample.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.TestInfo.executor": "Run",
     "Application.com.preparation.InterviewCodingTest.executor": "Run",
@@ -88,13 +90,13 @@
       <recent name="D:\Spring-Boot-App\Java_8_Functions\src\com" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Information">
-    <configuration name="Information" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.preparation.Information" />
+  <component name="RunManager" selected="Application.InterviewQuestions">
+    <configuration name="FetchDuplicateUsers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.FetchDuplicateUsers" />
       <module name="Java_8_Functions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.preparation.*" />
+          <option name="PATTERN" value="streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,40 +104,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalDateTimeUsingOfMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LocalDateTimeUsingOfMethod" />
-      <module name="Java_8_Functions" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.preparation.Test" />
-      <module name="Java_8_Functions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.preparation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.preparation.TestInfo" />
-      <module name="Java_8_Functions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.preparation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.preparation.InterviewCodingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="InterviewCodingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.preparation.InterviewCodingTest" />
       <module name="Java_8_Functions" />
       <extension name="coverage">
@@ -148,13 +117,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InterviewQuestions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.preparation.InterviewQuestions" />
+      <module name="Java_8_Functions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.preparation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.StreamsExample" />
+      <module name="Java_8_Functions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamsFilterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.StreamsFilterExample" />
+      <module name="Java_8_Functions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Information" />
-        <item itemvalue="Application.TestInfo" />
-        <item itemvalue="Application.LocalDateTimeUsingOfMethod" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.com.preparation.InterviewCodingTest" />
+        <item itemvalue="Application.InterviewQuestions" />
+        <item itemvalue="Application.InterviewCodingTest" />
+        <item itemvalue="Application.StreamsExample" />
+        <item itemvalue="Application.StreamsFilterExample" />
+        <item itemvalue="Application.FetchDuplicateUsers" />
       </list>
     </recent_temporary>
   </component>
@@ -359,7 +367,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720632409444</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Merge branch 'master' of https://github.com/kiranbosco/Java_8_Functions">
+      <option name="closed" value="true" />
+      <created>1721033194057</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1721033194057</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

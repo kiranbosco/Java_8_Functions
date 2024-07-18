@@ -248,6 +248,9 @@ public class Sample {
          * Write a Java 8 program to calculate the age of a person in years given their birthday.
          */
         calculatePersonAgeInYear();
+
+        //Print duplicate valuses
+        printDuplicateList();
     }
 
     private static void calculatePersonAgeInYear() {
@@ -606,4 +609,12 @@ public class Sample {
 
         System.out.println(evenAddOddSeparation);
     }
+
+    //print duplicate list in java
+    public static void printDuplicateList(){
+        List<Integer> list =Arrays.asList(1,1,2,3,4,4,5);
+        list.stream().filter(i->Collections.frequency(list,i)>1).collect(toSet())
+                .forEach(System.out::println);
+    }
+
 }
