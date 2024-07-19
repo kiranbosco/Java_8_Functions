@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.time.Period;
 import java.util.*;
 import java.util.function.Function;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -615,6 +616,25 @@ public class Sample {
         List<Integer> list =Arrays.asList(1,1,2,3,4,4,5);
         list.stream().filter(i->Collections.frequency(list,i)>1).collect(toSet())
                 .forEach(System.out::println);
+    }
+    //week days sorting in java 8
+    public static void weekdays_sorting_using_HashMpa(){
+        Map<Integer, String> id1 = new HashMap<Integer,String>();
+
+        id1.put(2,"Monday");
+        id1.put(5,"Thursday");
+        id1.put(7,"Saturday");
+        id1.put(3,"Tuesday");
+        id1.put(4,"Wednesday");
+        id1.put(1,"Sunday");
+        id1.put(5,"Thursday");
+        id1.put(6,"Friday");
+        List<Map.Entry<Integer, String>> collect = id1.entrySet()
+                .stream()
+                .filter(x->x.getKey()>2)  //add filter
+                .sorted(Map.Entry.comparingByKey(Comparator.reverseOrder()))
+                .collect(Collectors.toList());
+        System.out.println(collect);
     }
 
 }

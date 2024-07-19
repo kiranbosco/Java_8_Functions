@@ -300,6 +300,7 @@ public class InterviewCodingTest {
         //   fid_Max_Min_Numbers();
     //    repeat_charactor_Printrepeat_charactor_Print();
      //   checkStringDuplicateValue_8();
-        count_each_Word();
+     //   count_each_Word();
+        repeat_charactor_Printrepeat_charactor_Print();
     }
 }
