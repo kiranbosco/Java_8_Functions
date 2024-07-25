@@ -54,6 +54,9 @@ public class InterviewCls {
             System.out.println("the list is empty");
         }
 
+        List<Integer> clsListinfos = Arrays.asList(1,1,2,3,4,4,4);
+        System.out.println(clsListinfos.stream().filter(x->Collections.frequency(clsListinfos,x)>1).collect(Collectors.toSet()));
+
     }
 
 
