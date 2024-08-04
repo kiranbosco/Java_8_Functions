@@ -17,6 +17,7 @@ public class StreamsMapExample {
 
     private static List<String> namesUpperCase(List<Student> names){
         List<String> namesUpperCase = names.stream() //Stream<Student>
+                .filter(x->x.getGpa()>3.5)
                 .map(Student::getName) //Stream<String>
                 .map(String::toUpperCase) // Stream<String> -> UpperCase
                 .collect(toList()); // returns List // terminal operation

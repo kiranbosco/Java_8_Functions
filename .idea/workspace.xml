@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ad39660f-8acd-4c3b-bb11-278d9ebb6aff" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/com/preparation/InterviewCodingTest.java&#10;#&#9;src/com/preparation/InterviewQuestions.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/InterviewCls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/InterviewCls.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/Sample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/com/preparation/Sample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/preparation/InterviewCls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/preparation/InterviewCls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamsMapExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_8_Functions/streams/StreamsMapExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/preparation/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/preparation/Sample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/StreamsMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/StreamsMapExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -48,53 +50,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CoverentReturnTypeInfor.executor": "Run",
-    "Application.FetchDuplicateUsers.executor": "Run",
-    "Application.FilterExe.executor": "Run",
-    "Application.FindAny.executor": "Run",
-    "Application.GroupingBy.executor": "Run",
-    "Application.HashMapExe.executor": "Run",
-    "Application.ImperativeVsDeclarativeExample1.executor": "Run",
-    "Application.Information.executor": "Run",
-    "Application.InterviewCls.executor": "Run",
-    "Application.InterviewCodingTest.executor": "Run",
-    "Application.InterviewExe.executor": "Run",
-    "Application.InterviewQuestions.executor": "Run",
-    "Application.LocalDateTimeUsingOfMethod.executor": "Run",
-    "Application.MapExe.executor": "Run",
-    "Application.PartitioningExe.executor": "Run",
-    "Application.ReduceExe.executor": "Run",
-    "Application.Sample.executor": "Run",
-    "Application.SampleTest.executor": "Run",
-    "Application.SimpleTest.executor": "Run",
-    "Application.SingletoneDesign.executor": "Run",
-    "Application.StreamsExample.executor": "Run",
-    "Application.StreamsFilterExample.executor": "Run",
-    "Application.StreamsGroupByMethod.executor": "Run",
-    "Application.StreamsJoiningExample.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.TestInfo.executor": "Run",
-    "Application.com.preparation.InterviewCodingTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Spring-Boot-App/Java_8_Functions/src/com",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClonableInterfaceExe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoverentReturnTypeInfor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FetchDuplicateUsers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FilterExe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindAny.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericsExe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GroupingBy.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashMapExe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImperativeVsDeclarativeExample1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Information.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterviewCls.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterviewCodingTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterviewExe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterviewQuestions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LocalDateTimeUsingOfMethod.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapExe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PartitioningExe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReduceExe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SampleTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SingletoneDesign.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamsExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamsFilterExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamsGroupByMethod.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamsJoiningExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.preparation.InterviewCodingTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Spring-Boot-App/Java_8_Functions&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Spring-Boot-App\Java_8_Functions\src\com" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamsExample">
-    <configuration name="InterviewCls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.preparation.InterviewCls" />
+  <component name="RunManager" selected="Application.StudentInfo">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.preparation.A" />
       <module name="Java_8_Functions" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterviewCodingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.preparation.InterviewCodingTest" />
+    <configuration name="ClonableInterfaceExe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.preparation.ClonableInterfaceExe" />
       <module name="Java_8_Functions" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterviewQuestions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.preparation.InterviewQuestions" />
+    <configuration name="GenericsExe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.preparation.GenericsExe" />
       <module name="Java_8_Functions" />
       <extension name="coverage">
         <pattern>
@@ -132,8 +138,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="data.StreamsExample" />
+    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.preparation.Sample" />
+      <module name="Java_8_Functions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.preparation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data.StudentInfo" />
       <module name="Java_8_Functions" />
       <extension name="coverage">
         <pattern>
@@ -145,26 +164,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.TestInfo" />
-      <module name="Java_8_Functions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamsExample" />
-        <item itemvalue="Application.InterviewCodingTest" />
-        <item itemvalue="Application.InterviewCls" />
-        <item itemvalue="Application.InterviewQuestions" />
-        <item itemvalue="Application.TestInfo" />
+        <item itemvalue="Application.StudentInfo" />
+        <item itemvalue="Application.GenericsExe" />
+        <item itemvalue="Application.Sample" />
+        <item itemvalue="Application.A" />
+        <item itemvalue="Application.ClonableInterfaceExe" />
       </list>
     </recent_temporary>
   </component>
@@ -417,7 +423,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721553047208</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/com/preparation/InterviewCodingTest.java&#10;#&#9;src/com/preparation/InterviewQuestions.java">
+      <option name="closed" value="true" />
+      <created>1721938373694</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1721938373694</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/com/preparation/InterviewCodingTest.java&#10;#&#9;src/com/preparation/InterviewQuestions.java">
+      <option name="closed" value="true" />
+      <created>1721938408057</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1721938408057</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -442,6 +464,20 @@
           <url>file://$PROJECT_DIR$/src/com/preparation/InterviewCls.java</url>
           <line>64</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/preparation/InterviewCodingTest.java</url>
+          <line>198</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/data/StudentInfo.java</url>
+          <line>23</line>
+          <properties class="data.StudentInfo" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.time.Period;
 import java.util.*;
 import java.util.function.Function;
+import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -636,5 +637,12 @@ public class Sample {
                 .collect(Collectors.toList());
         System.out.println(collect);
     }
+
+    public static void  printDuplicateCharators(){
+        String str = "AABBC";
+        Map<String, Long>collect = Arrays.stream(str.split("")).collect(groupingBy(Function.identity(), counting()));
+        System.out.println(collect);
+    }
+
 
 }
